@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,900&family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet">
+    
+</head>
+<body>
+  <header>
+     
+      <div class="navbar" id="head">
+        <div class="logo">
+           <span class="font-logo">Shop Store</span>
+        </div>
+        <nav>
+            <ul id="meunsItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="assets/images/cart.png" class="scene close" width="30px" height="30"/>
+        <i class="fa-solid fa-bars menus-icon" onclick="meunToggle()" ></i>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-2">
+           <h1>Give Your Workout <br>A New Style!</h1>
+           <p>Success isn't always about greatness. It's about
+            consistency. Consistent hard work gain success. Greatness will come</p>
+           </p>
+           <a href="" class="btn">Explore Now  &#8594;</a>
+        </div>
+        <div class="col-2">
+         <img src="assets/images/pizza.png"/>
+        </div>
+      </div>
+      </div>
+    
+</header>
+
+
+<!-- Features Categories -->
+<div class="categories">
+  <div class="small-container">
+  <div class="row">
+    <div class="col-3">
+      <img src="assets/images/burger.png"/> <h4><a href="" class="btn">Burger &#8594;</a></h4>
+    </div>
+    <div class="col-3">
+      <img src="assets/images/doNut.png" /><h4><a href="" class="btn">Donuts &#8594;</a></h4>
+    </div>
+    <div class="col-3">
+      <img src="assets/images/sandwich.png" /><h4><a href="" class="btn">Sandwichs &#8594;</a></h4>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Features Products -->
+<div class="small-container">
+  <h2 class="title">Features Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="assets/images/indian-food-1.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <br /><br />
+      <img src="assets/images/thali.png">
+      <br /><br />
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/briyani.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/salad.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/indian-food-1.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Letest Products -->
+<div class="small-container">
+  <h2 class="title">Letest Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="assets/images/indian-food-1.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <br /><br />
+      <img src="assets/images/thali.png">
+      <br/><br /> <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/briyani.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/salad.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/indian-food-1.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <br /><br />
+      <img src="assets/images/thali.png">
+      <br /><br />
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/briyani.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/salad.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/salad.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/images/salad.png">
+      <h4>Red Printed T-Shirt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p>$50.00</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Offer Closes -->
+<div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <!-- <img src="assets/images/thail offer.png" class="offer-img" alt="office-Img"/> -->
+          <img src="assets/images/indian-food-1.png" class="offer-img" alt="office-Img" />
+        </div>
+        <div class="col-2">
+          <p>Exclusively Available on Shopsoup</p>
+          <h1>Maha Veg Thali</h1>
+          <small>Maha Veg Thali are getting a lightly crunchy snacks, sparkly black salt topping of cherry tomato.
+          cream cheese whipped cream. YUM</small>
+          <br /><a href="" class="btn">Buy Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- Testimonails -->
+<div class="container">
+<div class="testimonial">
+  <div class="smaill-container">
+    <h2 class="title">Review's Of Products</h2>
+       <div class="row">
+        <div class="col-6">
+          <img src="assets/images/cafe.jpg" alt="raveer barar">
+          <p>Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Totam tenetur ab minima! 
+            Sapiente, quo aut incidunt dolorem 
+            laboriosam, rem fugiat nobis, quasi 
+            suscipit nemo quidem officia iste itaque eligendi enim?</p>
+          <br /><div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Mukesh Khandve</h3>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/cafe.jpg" alt="raveer barar">
+            <p>Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Totam tenetur ab minima!
+              Sapiente, quo aut incidunt dolorem
+              laboriosam, rem fugiat nobis, quasi
+              suscipit nemo quidem officia iste itaque eligendi enim?</p>
+            <br /><div class="rating" >
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Mukesh Khandve</h3>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/cafe.jpg" alt="raveer barar">
+            <p>Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Totam tenetur ab minima!
+              Sapiente, quo aut incidunt dolorem
+              laboriosam, rem fugiat nobis, quasi
+              suscipit nemo quidem officia iste itaque eligendi enim?</p>
+            <br/><div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Mukesh Khandve</h3>
+          </div>
+       </div>
+  </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+
+<div class="footer">
+  <div class="container">
+  <div class="row">
+    <div class="footer-col-1">
+      <h3>Download our App</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Recusandae magni reprehenderit</p>
+      <div class="app-logo">
+        <img src="assets/images/gPlay.png"/>
+        <img src="assets/images/app-icon.png" />
+      </div>
+    </div>
+    <div class="footer-col-2">
+      <h3>Shop Soup</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Recusandae magni reprehenderit corporis ut mollitia fuga
+        esse repellat deserunt sequi culpa</p>
+    </div>
+    <div class="footer-col-3">
+      <h3>Useful Links</h3>
+      <ul>
+        <li>Coupons</li>
+        <li>Blog Post</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+      </ul>
+    </div>
+    <div class="footer-col-4">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagarm</li>
+        <li>Youtube</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">Copyright 2023 - Mukesh Khandve</p>
+</div>
+</div>
+
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
